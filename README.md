@@ -67,7 +67,7 @@ g++ -std=c++11 -O2 -Wall -Wextra -Werror raft-core/daagka-crypto-test.cc -lcrypt
 
 | Parameter | Value |
 |---|---|
-| Simulation area | 100 m × 100 m × 100 m by default; configurable through `--distance` and `--height` |
+| Simulation area | 400 m × 400 m × 100 m by default; configurable through `--distance` and `--height` |
 | Mobility model | Gauss–Markov by default; constant position is optional |
 | Propagation model | Friis + Nakagami + log-normal shadowing + range |
 | Communication standard | IEEE 802.11b |
